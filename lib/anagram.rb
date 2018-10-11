@@ -10,15 +10,10 @@ class Anagram
 
 
   def match(anagrams)
-    self.each do |word|
-      if word.split(" ") == word.split(", ").sort
-        word
-      else
-        false
-      end
+    anagrams.select do |word|
+      word.split("").sort == word.split("").sort
     end
   end
-
 
 
 
