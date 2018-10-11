@@ -15,6 +15,7 @@ class Anagram
         word
       else
         false
+      end
     end
   end
 
