@@ -11,7 +11,7 @@ class Anagram
 
   def match(anagrams)
     anagrams.each do |word|
-      word.split(" ")
+      if word.split(" ") == word.split(", ").sort
     end
   end
 
