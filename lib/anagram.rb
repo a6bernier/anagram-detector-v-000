@@ -12,6 +12,7 @@ class Anagram
   def match(anagrams)
     anagrams.each do |word|
       word.split(" ")
+    end
   end
 
 
